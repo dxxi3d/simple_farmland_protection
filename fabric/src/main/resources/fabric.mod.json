@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "simple_farmland_protection",
+  "version": "${version}",
+  "name": "Simple Farmland Protection",
+  "description": "Say goodbye to crop trampling!",
+  "authors": [
+    "dxxi3d"
+  ],
+  "contact": {
+    "sources": "https://github.com/dxxi3d/simple_farmland_protection",
+    "issues": "https://github.com/dxxi3d/simple_farmland_protection/issues"
+  },
+  "license": "All Rights Reserved",
+  "icon": "assets/simple_farmland_protection/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dxxi3d.simple_farmland_protection.MainFabric"
+    ]
+  },
+  "mixins": [
+    "simple_farmland_protection.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": ">=${minecraft_version}",
+    "java": ">=25"
+  }
+}

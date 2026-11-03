@@ -1,0 +1,27 @@
+package dxxi3d.simple_farmland_protection;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public final class ModLogger {
+    private static final Logger LOGGER = LoggerFactory.getLogger(SharedConstants.MOD_NAME);
+
+    private ModLogger() {
+    }
+
+    public static void sendInitialized() {
+        LOGGER.info("Mod initialized!");
+    }
+
+    public static void info(String message, Object... args) {
+        LOGGER.info(message, args);
+    }
+
+    public static void warn(String message, Object... args) {
+        LOGGER.warn(message, args);
+    }
+
+    public static void error(String message, Object... args) {
+        LOGGER.error(message, args);
+    }
+}

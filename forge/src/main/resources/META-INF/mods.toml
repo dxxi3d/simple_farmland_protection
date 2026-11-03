@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="simple_farmland_protection"
+version="${version}"
+displayName="Simple Farmland Protection"
+description="Say goodbye to crop trampling!"
+authors="dxxi3d"
+displayURL="https://github.com/dxxi3d/simple_farmland_protection"
+issueTrackerURL="https://github.com/dxxi3d/simple_farmland_protection/issues"
+logoFile="assets/simple_farmland_protection/icon.png"
+
+[[mixins]]
+config="simple_farmland_protection.mixins.json"
+
+[[dependencies.simple_farmland_protection]]
+modId="forge"
+mandatory=true
+versionRange="[1,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.simple_farmland_protection]]
+modId="minecraft"
+mandatory=true
+versionRange="[${minecraft_version},)"
+ordering="NONE"
+side="BOTH"
