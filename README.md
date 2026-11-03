@@ -12,6 +12,10 @@ Say goodbye to accidental crop trampling!
 * Mobs respect the `mob_griefing` game rule.
 * Each level of Feather Falling on boots increases safe fall distance by +2.0 blocks.
 
+## Download
+* [Modrinth](https://modrinth.com/mod/simple_farmland_protection)
+* [CurseForge](https://www.curseforge.com/minecraft/mc-mods/simple-farmland-protection)
+
 ## Issues & Feedback
 If you encounter any bugs or have feature requests, please report them on the [GitHub Issue Tracker](https://github.com/dxxi3d/simple_farmland_protection/issues).
 
